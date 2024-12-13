@@ -1,0 +1,10 @@
+What is a Amlak?
+Amlak is an uni project that we made in order to understand what a teams goes through in professional projects
+What does your site do?
+you can find on our site different announcements posted by either agencies or regular individuals , you can also post your own announcements if you wish to sell or rent your propreties 
+How can i find an announcement
+You either search for it with a keyword , or you can filter by price, type, wilaya...etc
+If an announcements interests me how can I contact the publisher
+By clicking on their profile , you can find eitheir their email or their phone number with which you can contact them
+
+
