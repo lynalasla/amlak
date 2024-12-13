@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&family=Patua+One&family=Raleway:wght@400;500;600;700&display=swap');
+
+.my-profile{
+  display: flex;
+  justify-content: 'flex-start';
+  font-family: Raleway;
+}
+
+.menu-reduit{
+  width: 100px;
+}
+
+.menu{
+  width: 70px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  color: #949494;
+  cursor: pointer;
+}
+
+.menu-items{
+  display: block;
+  text-decoration: none;
+  color: #949494;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 30px;
+  width: 250px;
+  margin-right: 70px;
+  margin-bottom: 3px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.chosen-item{
+  border-radius: 5px;
+  background: #F1F1F1;
+  display: flex;
+}
+
+.rec-orange{
+  border-radius: 5px 0px 0px 5px;
+  background: #C84008 !important;
+  width: 9px;
+  margin-right: 15px;
+  margin-top: -7px;
+  margin-bottom: -7px;
+}
+
+.infos-profil{
+  width: 100%;
+}
+
+.prodetails{
+  margin-left: 3%;
+}
+
+.banniere{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  height: 100px;
+  border-radius: 60px 0px;
+  background: #CCC5B9;
+}
+
+.photo-infos, .photo-infoos{
+  display: flex;
+  gap: 30px; 
+  align-items: center;
+  margin-top: -40px;
+  margin-left: 26px;
+}
+
+.photo-profile{
+  border-radius: 140px;
+  border: 3px solid #FFF;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.info{
+  margin-top: 12px;
+}
+
+.name{
+  color: #1F1F1F;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.email{
+  color: #949494;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.formu{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formu1{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.form-title{
+  width: 150px;
+  color: #616161;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.formu_input{
+  font-size: 17px;
+  font-weight: 500;
+  color: #1F1F1F;
+  padding-top: 11px;
+  padding-left: 13px;
+  padding-bottom: 11px;
+  border-radius: 5px;
+  background: #f1f1f1;
+  border: none;
+  width: 65%;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+
+.save-button{
+  margin-left: 229px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  background: #C84008;
+  width: 160px;
+  height: 40px;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.titree{
+  font-family: Patua One;
+  font-size: 25px;
+  margin-top: 35px;
+  margin-left: 5%;
+}
+
+.infoo{
+  font-family: Raleway;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ownerr{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.namee{
+  margin-top: 30px;
+  color: #1F1F1F;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.ownerr-type{
+  color: #C84008;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 2px solid #C84008;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: fit-content;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.coordonnees{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.phone{
+  color: #949494;
+  font-weight: 500;
+}
+
+.emaill{
+  margin-top: 35px;
+  font-weight: 500;
+  color: #949494;
+}
+
+
+@media (max-width: 768px){
+  .menu-reduit{
+    width: 80px;
+  }
+
+  .menu{
+    margin-right: 50px;
+    margin-left: 20px;
+  }
+
+  .menu-items{
+    width: 190px;
+    margin-right: 30px;
+  }
+
+  .infos-profil{
+    width: 88%;
+  }
+
+  .banniere{
+    margin-top: 25px;
+    height: 75px;
+  }
+
+  .photo-profile{
+    border-radius: 97px;
+    width: 97px;
+    height: 97px;
+  }
+
+  .photo-infos{
+    margin-top: -35px;
+    margin-left: 16px;
+    gap: 15px;
+  }
+
+  .photo-infoos{
+    margin-top: -39px;
+    margin-left: 16px;
+    gap: 15px;
+  }
+
+  .info{
+    margin-top: 18px;
+    max-width: 180px;
+  }
+
+  .name{
+    font-size: 26px;
+  }
+
+  .email{
+    font-size: 15px;
+  }
+
+  .formu1{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .formu_input{
+    width: 80%;
+  }
+
+  .save-button{
+    margin-left: 55px;
+  }
+
+  .titree{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+
+  .infoo{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ownerr{
+    gap: 0;
+  }
+  
+  .namee{
+    margin-top: 40px;
+    font-size: 22px;
+    max-width: 200px;
+  }
+  
+  .ownerr-type{
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 2px;
+  }
+  
+  .phone{
+    font-size: 13.5px;
+  }
+  
+  .emaill{
+    margin-top: 5px;
+    font-size: 13.5px;
+  }
+}

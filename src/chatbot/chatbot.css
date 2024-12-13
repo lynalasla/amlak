@@ -1,0 +1,129 @@
+/* Chatbot.css */
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+body {
+  font-family: 'Patua One', sans-serif;
+}
+.chatbot-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.chatbot-messages {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.message {
+  margin: 8px;
+  padding: 12px;
+  border-radius: 45px;
+  max-width: 70%;
+}
+
+.user-message {
+  text-align: right;
+  align-self: flex-end;
+  background-color: #C84008; /* Couleur pour les messages de l'utilisateur */
+  color: #fff;
+  margin-left: auto;
+}
+
+.bot-message {
+  align-self: flex-start;
+  background-color: #D9D9D9; /* Couleur pour les messages du chatbot */
+  color: #fff;
+  margin-right: auto /* Couleur du texte pour les messages du chatbot */
+}
+
+/* Ajoutez un style au bouton d'envoi */
+.chatbot-input {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+.chatbot-input input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 45px;
+}
+
+/* Style du bouton d'envoi */
+.chatbot-input button {
+  border: none;
+  font-size: 45px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #C84008;
+}
+.message {
+  margin: 8px;
+  padding: 12px;
+  border-radius: 35px;
+  width: fit-content; /* Ajuste la largeur en fonction du contenu */
+  max-width: 80%;
+  white-space: pre-wrap;
+}
+
+.h-screen{
+  height: 100vh;
+}
+
+.w-1-4{
+  width: 25%;
+}
+
+.bg-gradient-to-bfrom-CCC5B9to-{
+  background: linear-gradient(180deg, #CCC5B9 0%, rgba(204, 197, 185, 0.00) 114.09%);
+}
+
+.mb-1{
+  margin-bottom: 0.25rem;
+}
+
+.overflow-y-auto{
+  overflow-y: auto;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+
+.self-start{
+  align-self: flex-start;
+}
+
+.self-end{
+  align-self: flex-end;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.bg-gray-300{
+  background-color: #e2e8f0;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
+.rounded-r-lg{
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.bg-transparent{
+  background-color: transparent;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+}
+
+

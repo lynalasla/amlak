@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&family=Raleway:wght@400;500;600;700&display=swap');
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.center2 {
+  margin: 0 auto;
+}
+
+.conteinant{
+  font-family: "Raleway", sans-serif;
+  width: 1000px;
+  border-radius: 20px;
+  background: #FBFBFB;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 30px;
+  margin-top: 10px;
+}
+
+.picture-owner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo{
+  width: 490px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.owner{
+  margin-top: 20px;
+  font-family: "Outfit", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.contenant-owner{
+  width: 310px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: "Raleway", sans-serif;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-left: 18px;
+}
+
+.owner-head{
+  display: flex;
+  gap: 15px;
+}
+
+.photo-profil{
+  width: 90px;
+  height: 90px;
+  object-fit: cover; /*contain*/
+  border-radius: 23px;
+}
+
+.owner-info{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.owner-type{
+  color: #C84008;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 2px solid #C84008;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: fit-content;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.owner-name{
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 0.5px;
+}
+
+.owner-contacts{
+  color: #949494;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 18px;
+  margin-bottom: 25px;
+  margin-left: 34px;
+}
+
+.profile-button{
+  border-radius: 8px;
+  background: #C84008;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  height: 35px;
+}
+
+.center3{
+  display: flex;
+  justify-content: center;
+}
+
+.details{
+  margin-left: 40px;
+}
+
+.favorite{
+  background: none;
+  border: none;
+  margin-left: 85%;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.transaction-sale{
+  color: #9747FF;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  background: rgba(161, 87, 255, 0.18);
+  width: fit-content;
+  padding: 3.5px 11px;
+  margin-top: -30px;
+}
+
+.transaction-rent{
+  color: rgba(161, 207, 85, 0.97);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  background: rgba(161, 207, 85, 0.35);
+  width: fit-content;
+  padding: 3.5px 11px;
+  margin-top: -30px;
+}
+
+.titre{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-left: 4px;
+}
+
+.localisation{
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  color: #8191A0;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  margin-left: 2.5px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  gap: 2px;
+}
+
+.details-h{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.details-h2{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 15px;
+}
+
+.details-titre{
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.details-data{
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 3.5px;
+}
+
+.details-desc{
+  font-size: 15px;
+  font-weight: 400;
+  width: 420px;
+  text-align: justify;
+  text-justify: inter-word;
+  min-height: 170px;
+  max-height: 180px;
+  overflow: auto;
+}
+
+.maps{
+  width: 320px;
+  height: 240px;
+  margin-top: 5px;
+  margin-left: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 13px;
+}
+
+.similaires{
+  display: flex;
+  justify-content: center;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+  .conteinant{
+    font-family: "Raleway", sans-serif;
+    width: 320px;
+    border-radius: 20px;
+    background: #FBFBFB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+
+  .picture-owner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo{
+    width: 200px;
+    max-height: 300px;
+    border-radius: 10px;
+  }
+  
+  .owner{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .contenant-owner{
+    width: 240px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Raleway", sans-serif;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 18px;
+  }
+  
+  .owner-head{
+    display: flex;
+    gap: 15px;
+  }
+  
+  .photo-profil{
+    width: 70px;
+    height: 70px;
+    object-fit: cover; /*contain*/
+    border-radius: 15px;
+  }
+  
+  .owner-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .owner-type{
+    color: #C84008;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid #C84008;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: fit-content;
+    text-align: center;
+    margin-top: 4px;
+  }
+  
+  .owner-name{
+  font-size: 16px;
+  font-weight: 600;
+  }
+  
+  .owner-contacts{
+    color: #949494;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 18px;
+    margin-bottom: 25px;
+    margin-left: 34px;
+  }
+
+  .favorite{
+    margin-left: 80%;
+  }
+  
+  .profile-button{
+    border-radius: 8px;
+    background: #C84008;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+  }
+  
+  .details{
+    margin-left: 25px;
+    margin-bottom: 0;
+  }
+  
+  .transaction-sale{
+    color: #9747FF;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    background: rgba(161, 87, 255, 0.18);
+    width: fit-content;
+    padding: 3px 10px;
+    margin-top: -30px;
+  }
+
+  .transaction-rent{
+    color: rgba(161, 207, 85, 0.97);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    background: rgba(161, 207, 85, 0.35);
+    width: fit-content;
+    padding: 3px 10px;
+    margin-top: -30px;
+  }
+  
+  .titre{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-left: 4px;
+  }
+  
+  .details-desc{
+    font-size: 15px;
+    font-weight: 400;
+    width: 280px;
+    max-height: 180px;
+    overflow: auto;
+  }
+  
+  .maps{
+    margin-left: -26px;
+  }
+}
